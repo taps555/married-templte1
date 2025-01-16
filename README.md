@@ -1,15 +1,15 @@
 # 💑 Digital Wedding Invitation
 
 <div align="center">
-  <img src="https://i.ibb.co/placeholder-image.jpg">
+  <img src="https://i.ibb.co.com/HD7f89F/undangan-pernikahan.png">
   
   <p align="center">
     Undangan pernikahan digital yang elegan dan modern
     <br />
-    <a href="https://github.com/yourusername/wedding-invitation"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/raflyazwar/undangan-pernikahan"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://your-demo-link.netlify.app/">View Demo</a>
+    <a href="https://undangan-pernikahan-online.netlify.app/">View Demo</a>
   </p>
 </div>
 
@@ -41,7 +41,7 @@
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/yourusername/wedding-invitation.git
+   git clone https://github.com/raflyazwar/undangan-pernikahan.git
    ```
 
 2. Install dependencies
@@ -96,9 +96,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Website: [yourwebsite.com](https://yourwebsite.com)
+**Rafly Azwar**
+- GitHub: [@raflyazwar](https://github.com/raflyazwar)
+- Website: [raflyazwar.dev](https://raflyazwar.vercel.app/)
 
 ## 🙏 Acknowledgments
 
@@ -107,12 +107,16 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [Lucide React](https://lucide.dev) for icons
 - [Unsplash](https://unsplash.com) for stock photos
 
-## 💖 Support
+## 💖 Support Me
 
-If you find this project helpful, please consider giving it a ⭐️ on GitHub!
+If you appreciate my work and want to support me, you can do so through the following options:
+
+- **BagiBagi**: [Support on BagiBagi](https://bagibagi.co/Raflyazwar)
+- **Saweria**: [Support on Saweria](https://saweria.co/Raflyazwar)
+- **Socialbuzz**: [Support on Socialbuzz](https://sociabuzz.com/raflyazwar)
 
 ---
 
 <div align="center">
-  Made with ❤️ by <a href="https://github.com/yourusername">Your Name</a>
+  Made with ❤️ by <a href="https://github.com/raflyazwar">Rafly Azwar</a>
 </div>
