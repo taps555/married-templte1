@@ -29,11 +29,14 @@ const ProductForm = () => {
     }
 
     try {
-      const response = await fetch("https://curdgolangbasic-production.up.railway.app/admin", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name }), // Kirim data nama ke backend
-      });
+      const response = await fetch(
+        "https://curdgolangbasic-production.up.railway.app/admin",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ name }), // Kirim data nama ke backend
+        }
+      );
 
       // Tangani response dari backend
       const data: ResponseData = await response.json();

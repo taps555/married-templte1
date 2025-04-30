@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MyWaktu from "./ProductForm";
 import User from "./User";
+import InvitationWedding from "./Invitation";
 
 const App = () => {
   return (
@@ -9,6 +10,10 @@ const App = () => {
         {/* Route dengan ID dinamis */}
         <Route path="/" element={<MyWaktu />} />
         <Route path="/undangan/:name" element={<User />} />
+        <Route
+          path="/undangan/:name/myWedding"
+          element={<InvitationWedding />}
+        />
       </Routes>
     </Router>
     // <Routes>

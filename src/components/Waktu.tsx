@@ -40,25 +40,25 @@ const Waktu: React.FC<WaktuProps> = ({ timeLeft }) => {
   return (
     <div className="grid grid-cols-4 gap-4 max-w-md mx-auto">
       <div className="bg-white p-3 rounded-lg shadow-md">
-        <div className="text-2xl font-bold text-rose-400">
+        <div className="text-2xl font-bold text-lime-600">
           {timeLeftState.days}
         </div>
         <div className="text-sm text-gray-600">Hari</div>
       </div>
       <div className="bg-white p-3 rounded-lg shadow-md">
-        <div className="text-2xl font-bold text-rose-400">
+        <div className="text-2xl font-bold text-lime-600">
           {timeLeftState.hours}
         </div>
         <div className="text-sm text-gray-600">Jam</div>
       </div>
       <div className="bg-white p-3 rounded-lg shadow-md">
-        <div className="text-2xl font-bold text-rose-400">
+        <div className="text-2xl font-bold text-lime-600">
           {timeLeftState.minutes}
         </div>
         <div className="text-sm text-gray-600">Menit</div>
       </div>
       <div className="bg-white p-3 rounded-lg shadow-md">
-        <div className="text-2xl font-bold text-rose-400">
+        <div className="text-2xl font-bold text-lime-600">
           {timeLeftState.seconds}
         </div>
         <div className="text-sm text-gray-600">Detik</div>
