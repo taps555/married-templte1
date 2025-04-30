@@ -30,7 +30,7 @@ const ProductForm = () => {
 
     try {
       const response = await fetch(
-        "curdgolangbasic-production.up.railway.app/admin",
+        "https://curdgolangbasic-production.up.railway.app/admin",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

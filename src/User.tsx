@@ -40,7 +40,7 @@ const User = () => {
     const fetchInvitation = async () => {
       try {
         const response = await fetch(
-          `curdgolangbasic-production.up.railway.app/undangan/${name}`
+          `https://curdgolangbasic-production.up.railway.app/undangan/${name}`
         );
 
         if (response.ok) {
