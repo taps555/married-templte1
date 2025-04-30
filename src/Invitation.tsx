@@ -18,7 +18,10 @@ export default function () {
   useEffect(() => {
     const fetchInvitation = async () => {
       try {
-        const response = await fetch(`/api/undangan?name=${name}/myWedding`);
+        const response = await fetch(
+          `https://curdgolangbasic-production.up.railway.app/undangan/${name}/myWedding`
+        );
+
         if (response.ok) {
           const data = await response.json();
           setUser(data);

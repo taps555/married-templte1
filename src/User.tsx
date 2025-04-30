@@ -39,7 +39,10 @@ const User = () => {
   useEffect(() => {
     const fetchInvitation = async () => {
       try {
-        const response = await fetch(`/api/undangan?name=${name}`);
+        const response = await fetch(
+          `https://curdgolangbasic-production.up.railway.app/undangan/${name}`
+        );
+
         if (response.ok) {
           const data = await response.json();
           setUser(data);
