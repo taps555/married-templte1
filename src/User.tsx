@@ -47,7 +47,7 @@ const User = () => {
           const data = await response.json();
           setUser(data);
         } else {
-          alert("Undangan tidak ditemukan.");
+          console.log("Undangan tidak ditemukan.");
         }
       } catch (error) {
         console.error("Error:", error);
