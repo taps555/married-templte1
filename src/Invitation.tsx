@@ -19,7 +19,7 @@ export default function () {
     const fetchInvitation = async () => {
       try {
         const response = await fetch(
-          `https://curdgolangbasic-production.up.railway.app/undangan/${name}/myWedding`
+          `curdgolangbasic-production.up.railway.app/undangan/${name}/myWedding`
         );
 
         if (response.ok) {
