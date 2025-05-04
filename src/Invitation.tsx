@@ -16,6 +16,7 @@ export default function () {
   const { name } = useParams<{ name: string }>(); // Menentukan tipe id dari URL
   const [user, setUser] = useState<any | null>(null);
   useEffect(() => {
+    
     const fetchInvitation = async () => {
       try {
         const response = await fetch(
